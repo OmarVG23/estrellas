@@ -1,0 +1,182 @@
+
+body {
+    background-color: aquamarine;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1047161227/thumb/12.jpg?ip=x480);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header {
+    background: url(https://png.pngtree.com/background/20210717/original/pngtree-flat-hand-drawn-black-and-white-cosmic-line-draft-astronaut-background-picture-image_1445343.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: solid;
+    text-shadow: 2px 1px 1px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.cajadeImagen {
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    width: auto;
+    height: 80px;
+    padding: 8px;
+    border-radius: 40px;
+}
+
+.cajadetitulo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(244, 248, 6);
+
+}
+
+nav {
+    background-color: #f8e006;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    position: fixed;
+    top: 95px;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    padding: 5px;
+    width: 150px;
+    text-shadow: 1px 1px 1px
+}
+
+nav li:hover {
+    background-color: rgb(219, 37, 37);
+}
+h2 {
+
+    
+    text-decoration: underline;
+    color: #f8e006;
+    font-weight: bold;
+    /*negrita*/
+    /*primero se coloca sombra horizonra- vertical -tamaño -color*/
+    /* text-shadow:2px 1px 1px yellow ; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    
+}
+main{
+    padding-top: 140px;
+    margin: 10px 10px;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-decoration: none;
+    /* sobre la lines*/
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: none;
+    line-height: 20px;
+    font-size: 15px;
+    color: white;
+}
+.galeria{
+    padding: 10px;
+    border: 5px inset rgb(211, 24, 24);
+    float: left;
+    width:250px;
+    padding: 1px;
+}
+.galeria:hover{
+    border: 5px outset rgb(14, 61, 216);
+    
+}
+.galeria img {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.texto{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1  px 1px 1px;
+}
+section{
+    clear:both;
+}
+.constelacion{
+    list-style-image: url("/image/13\ \(1\).gif");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-decoration: none;
+    /* sobre la lines*/
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: none;
+    line-height: 20px;
+    font-size: 15px;
+    color: white;
+}
+#enlace{
+    text-decoration: none;
+    color: rgb(155, 247, 7);
+}
+#enlace:link{
+    color: rgb(66, 31, 223);
+}
+#enlace:visited{
+    color: #f8e006;
+}
+#enlace:hover{
+    background-color: rgb(255, 34, 34);
+}
+footer {
+    background-color: rgb(249, 253, 6);
+    color: rgb(248, 14, 6);
+    text-decoration: double;
+    text-shadow: 1px 1px 1px;
+    font-size: 20px;clear: both;
+    float: right;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+footer img{
+    width: 5%;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.paginas{
+    list-style-image: url("/image/planeta\ \(1\).gif");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-decoration: none;
+    /* sobre la lines*/
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: none;
+    line-height: 20px;
+    font-size: 15px;
+    color: white;
+}
